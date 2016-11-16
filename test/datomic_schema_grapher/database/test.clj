@@ -1,7 +1,6 @@
 (ns datomic-schema-grapher.database.test
   (:require [clojure.test :refer :all]
             [datomic-schema-grapher.test-helpers :refer :all]
-            [utils.datomic-helpers :refer :all]
             [datomic-schema-grapher.database :refer :all]))
 
 (def uri "datomic:mem://database-test")
